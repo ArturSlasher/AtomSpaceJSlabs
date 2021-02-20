@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .wrapper {
+            transition: all .3s ease;
+            background: #00000033;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            bottom: 0px;
+            right: 0px;
+        }
+        .hidden {
+            opacity: 0;
+        }
+        .dialog {
+            font-size: 10px;
+            position: absolute;
+            transition: all .3s ease;
+            transform: scale(0, 0);
+            left: 50%;
+            top: 50%;
+            padding: 10px;
+            background: white;
+            border-radius: 5px;
+        }
+
+        .dialog button {
+            width: 100%;
+            font-size: 8px;
+        }
+
+        .cross {
+            display: inline-block;
+            /*float: right;*/
+            margin-bottom: 20px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="show_dialog_btn">Выйти</button>
+    <script src="main.js"></script>
+</body>
+</html>

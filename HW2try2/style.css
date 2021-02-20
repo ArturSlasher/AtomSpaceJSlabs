@@ -1,0 +1,126 @@
+/* Осилил пока только такой вариант. Сегодня-завтра постараюсь сделать так, как надо.
+ К сожалению, немного не расчитал вермя на ДЗ.*/
+
+.circle-container {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px;
+}
+
+.square-container {
+    width: 525px;
+    height: 525px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin: 105px;
+    align-items: center;
+}
+
+.circle-container > div { 
+    /*каждый круг*/
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 5px;
+    transform: translate(0px, -628px);
+}
+
+.square-container > div {
+    /*каждый квадрат*/
+    display: flex;
+    width: 60px;
+    height: 60px;
+    /*=============================================================*/
+    align-items: center; /*сверху вниз*/
+    justify-content: center; /* по горизонтали*/
+}
+
+.circle-container__circle-1 {
+    background-color: #00FFFF;
+    opacity: 0.5;
+}
+
+.circle-container__circle-2 {
+    background-color: #7FFF00;
+    opacity: 0.5;
+}
+
+.circle-container__circle-3 {
+    background-color: #DC143C;
+    opacity: 0.5;
+}
+
+.circle-container__circle-4 {
+    background-color:#9932CC;
+    opacity: 0.5;
+}
+
+.square-container__square-1 {
+    background-color: rgba(255,255,0, 0.6);
+}
+
+.square-container__square-3 {
+    background-color: rgba(0,128,0, 0.6);
+}
+
+
+
+#square-container__square-1__1 {
+    animation: s1 5s ease infinite;
+}
+
+#square-container__square-1__2 {
+    animation: s2 5s ease infinite;    
+}
+
+#square-container__square-3__5 {
+    animation: s3 5s ease infinite;   
+}
+
+#square-container__square-3__6 {
+    animation: s4 5s ease infinite;
+}
+
+@keyframes s1 {
+    0% { 
+        transform: rotate(0deg) translateY(120px) rotate(0deg);
+        
+    }
+    100% {
+        transform: rotate(360deg) translateY(120px) rotate(-360deg); 
+    }
+}
+
+@keyframes s2 {
+        0% { 
+            transform: rotate(0deg) translateY(120px) rotate(0deg);
+            
+        }
+        100% {
+            transform: rotate(-360deg) translateY(120px) rotate(360deg); 
+        }
+}
+
+@keyframes s3 {
+    0% { 
+        transform: rotate(0deg) translateY(-120px) rotate(0deg);
+        
+    }
+    100% {
+        transform: rotate(-360deg) translateY(-120px) rotate(360deg); 
+    }
+}
+
+@keyframes s4 {
+    0% { 
+        transform: rotate(0deg) translateY(-120px) rotate(0deg);
+        
+    }
+    100% {
+        transform: rotate(360deg) translateY(-120px) rotate(-360deg); 
+    }
+}

@@ -1,0 +1,10 @@
+.button {
+    color: #000; /* цвет текста */
+    text-align: center;
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    background: #ff0000; /* фон кнопки */
+    padding: .7em 1em; /* отступ от текста */
+    font-size: 25px;
+    border-radius: 8px;
+    border: 2px solid #000;
+  } 
