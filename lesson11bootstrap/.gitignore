@@ -4,5 +4,6 @@ docs
 pnpm-lock.yaml
 .eslintcache
 # Ignores compiled TypeScript files
-./**/*.js
-./**/*.map
+./*.js
+./*.map
+./*.css
