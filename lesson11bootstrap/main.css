@@ -382,6 +382,10 @@
   border: 0 !important;
 }
 
+.border-10 {
+  border: 10px solid black !important;
+}
+
 .border-top {
   border-top: 1px solid #dee2e6 !important;
 }
@@ -11112,6 +11116,10 @@ textarea.form-control-lg {
   border: 0 !important;
 }
 
+.border-10 {
+  border: 10px solid black !important;
+}
+
 .border-top {
   border-top: 1px solid #dee2e6 !important;
 }
@@ -11134,6 +11142,10 @@ textarea.form-control-lg {
 
 .border-bottom-0 {
   border-bottom: 0 !important;
+}
+
+.border-bottom-10 {
+  border-bottom: 10px solid #9f9fa8 !important;
 }
 
 .border-start {
@@ -11336,27 +11348,27 @@ textarea.form-control-lg {
   gap: 3rem !important;
 }
 
-.justify-content-start {
+.j-c-start {
   justify-content: flex-start !important;
 }
 
-.justify-content-end {
+.j-c-end {
   justify-content: flex-end !important;
 }
 
-.justify-content-center {
+.j-c-center {
   justify-content: center !important;
 }
 
-.justify-content-between {
+.j-c-between {
   justify-content: space-between !important;
 }
 
-.justify-content-around {
+.j-c-around {
   justify-content: space-around !important;
 }
 
-.justify-content-evenly {
+.j-c-evenly {
   justify-content: space-evenly !important;
 }
 
@@ -12278,27 +12290,27 @@ textarea.form-control-lg {
     gap: 3rem !important;
   }
 
-  .justify-content-sm-start {
+  .j-c-sm-start {
     justify-content: flex-start !important;
   }
 
-  .justify-content-sm-end {
+  .j-c-sm-end {
     justify-content: flex-end !important;
   }
 
-  .justify-content-sm-center {
+  .j-c-sm-center {
     justify-content: center !important;
   }
 
-  .justify-content-sm-between {
+  .j-c-sm-between {
     justify-content: space-between !important;
   }
 
-  .justify-content-sm-around {
+  .j-c-sm-around {
     justify-content: space-around !important;
   }
 
-  .justify-content-sm-evenly {
+  .j-c-sm-evenly {
     justify-content: space-evenly !important;
   }
 
@@ -12929,27 +12941,27 @@ textarea.form-control-lg {
     gap: 3rem !important;
   }
 
-  .justify-content-md-start {
+  .j-c-md-start {
     justify-content: flex-start !important;
   }
 
-  .justify-content-md-end {
+  .j-c-md-end {
     justify-content: flex-end !important;
   }
 
-  .justify-content-md-center {
+  .j-c-md-center {
     justify-content: center !important;
   }
 
-  .justify-content-md-between {
+  .j-c-md-between {
     justify-content: space-between !important;
   }
 
-  .justify-content-md-around {
+  .j-c-md-around {
     justify-content: space-around !important;
   }
 
-  .justify-content-md-evenly {
+  .j-c-md-evenly {
     justify-content: space-evenly !important;
   }
 
@@ -13580,27 +13592,27 @@ textarea.form-control-lg {
     gap: 3rem !important;
   }
 
-  .justify-content-lg-start {
+  .j-c-lg-start {
     justify-content: flex-start !important;
   }
 
-  .justify-content-lg-end {
+  .j-c-lg-end {
     justify-content: flex-end !important;
   }
 
-  .justify-content-lg-center {
+  .j-c-lg-center {
     justify-content: center !important;
   }
 
-  .justify-content-lg-between {
+  .j-c-lg-between {
     justify-content: space-between !important;
   }
 
-  .justify-content-lg-around {
+  .j-c-lg-around {
     justify-content: space-around !important;
   }
 
-  .justify-content-lg-evenly {
+  .j-c-lg-evenly {
     justify-content: space-evenly !important;
   }
 
@@ -14231,27 +14243,27 @@ textarea.form-control-lg {
     gap: 3rem !important;
   }
 
-  .justify-content-xl-start {
+  .j-c-xl-start {
     justify-content: flex-start !important;
   }
 
-  .justify-content-xl-end {
+  .j-c-xl-end {
     justify-content: flex-end !important;
   }
 
-  .justify-content-xl-center {
+  .j-c-xl-center {
     justify-content: center !important;
   }
 
-  .justify-content-xl-between {
+  .j-c-xl-between {
     justify-content: space-between !important;
   }
 
-  .justify-content-xl-around {
+  .j-c-xl-around {
     justify-content: space-around !important;
   }
 
-  .justify-content-xl-evenly {
+  .j-c-xl-evenly {
     justify-content: space-evenly !important;
   }
 
@@ -14882,27 +14894,27 @@ textarea.form-control-lg {
     gap: 3rem !important;
   }
 
-  .justify-content-xxl-start {
+  .j-c-xxl-start {
     justify-content: flex-start !important;
   }
 
-  .justify-content-xxl-end {
+  .j-c-xxl-end {
     justify-content: flex-end !important;
   }
 
-  .justify-content-xxl-center {
+  .j-c-xxl-center {
     justify-content: center !important;
   }
 
-  .justify-content-xxl-between {
+  .j-c-xxl-between {
     justify-content: space-between !important;
   }
 
-  .justify-content-xxl-around {
+  .j-c-xxl-around {
     justify-content: space-around !important;
   }
 
-  .justify-content-xxl-evenly {
+  .j-c-xxl-evenly {
     justify-content: space-evenly !important;
   }
 
