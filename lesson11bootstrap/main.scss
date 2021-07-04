@@ -1,10 +1,39 @@
 @import 'node_modules/bootstrap/scss/bootstrap-utilities';
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/utilities";
+
+
+
 
 $primary: #0d5077;
 $input-focus-box-shadow: 5px 5px 3px $green;
 $input-border-width: 5px;
 $input-border-color: $danger;
 
+$utilities: map-merge(
+  $utilities,
+  (
+    "border-bottom": map-merge(
+      map-get($utilities, "border-bottom"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "border-bottom"), "values"),
+          (10: 10px solid rgb(159, 159, 168))
+        ),
+      ),
+    ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities, (
+    "justify-content": map-merge(
+      map-get($utilities, "justify-content"),
+      ( class: j-c ),
+    ),
+  )
+);
 
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 
