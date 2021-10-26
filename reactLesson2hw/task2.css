@@ -1,0 +1,17 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    background: rgb(58, 174, 247);
+    border: solid blue;
+}
+
+.nav-item {
+    padding: 10px;
+    color: white;
+}
+
+.nav-item:active {
+    background: white;
+    color: rgb(58, 174, 247);
+}

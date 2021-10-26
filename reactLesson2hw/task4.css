@@ -1,0 +1,81 @@
+* {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    background-image: url("main-background-fix.jpg");
+    width: 100%;
+    height: 500px;
+    padding-left: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+    padding-left: 150px;
+    margin: 5px;
+    font-size: small;
+}
+
+nav div {
+    padding: 10px;
+    color: gray;
+}
+
+.title {
+    display: inline-block;
+    margin-top: 100px;
+}
+
+.title h1 {
+    background-color: rgb(124, 216, 81);
+    color: white;
+    width: max-content;
+    padding: 5px;
+    margin-block: -15px;
+    font-size: xx-large;
+}
+
+.subtitle {
+    display: flex;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+#order {
+    color: white;
+}
+
+#free {
+    color: orange;
+}
+
+.button-group {
+    display: flex;
+    margin-top: 15px;
+}
+
+#measurer, #pick {
+    margin-right: 25px;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 20px;
+    padding-inline: 40px;
+}
+
+#measurer {
+    background-color: orange;
+    color: white;
+    border: 0px;
+}
+
+#pick {
+    border: solid orange;
+    color: orange;
+    background-color: transparent;
+}

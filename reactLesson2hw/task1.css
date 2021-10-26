@@ -1,0 +1,14 @@
+body {
+    background: rgb(241, 223, 139);
+}
+
+div{
+    width: 318px;
+    margin: 20px;
+    padding: 20px;
+    background: black;
+    color: orange;
+    border: solid red;
+    text-align: justify;
+    text-indent: 25px;
+}
